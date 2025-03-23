@@ -1,0 +1,69 @@
+.account-settings-container {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 812px;
+  background:#F7F8F9 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 100px auto;
+  box-shadow:0px 3px 6px #F7F8F9;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 68px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000007;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.header-title {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  color: #1D2226;
+  text-transform: capitalize;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin-top: 98px; 
+  padding: 0 20px;
+}
+
+.profile-pic {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  color: #1D2226;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+
+.email {
+  font: normal normal normal 14px/19px;
+  font-family: "Rubik" ,sans-serif;
+  color: #1D2226;
+  text-transform: capitalize;
+  margin-bottom: 2px;
+}
+.company{
+  padding: 20px;
+}
